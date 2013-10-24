@@ -241,7 +241,7 @@ YSLOW.registerRule({
         }
 
         if (userCdns) {
-            message += '<p>Using these CDN hostnames from your preferences: ' +
+            message += '<p>Using these CDN hostnames from your preferences ' +
                 userCdns + '</p>';
         } else {
             message += '<p>You can specify CDN hostnames in your ' +
